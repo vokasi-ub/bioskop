@@ -14,7 +14,7 @@ class CreateTableTiket extends Migration
     public function up()
     {
         Schema::create('tiket', function (Blueprint $table) {
-            $table->string('id_tiket');
+            $table->integer('id_tiket');
             $table->string('harga');
             $table->integer('stok');
             $table->timestamps();

@@ -55,13 +55,7 @@
                 <form class="form-horizontal" action="/inputdatastudio/store" method="post">
                 {{ csrf_field() }}
               <div class="box-body">
-                <div class="form-group">
-                  <label for="inputEmail3" class="col-sm-2 control-label">Id studio</label>
-
-                  <div class="col-sm-10">`
-                    <input type="text" class="form-control" name="id_studio" placeholder="id studio">
-                  </div>
-                </div>
+                
                 <div class="form-group">
                   <label for="inputPassword3" class="col-sm-2 control-label">Nama studio</label>
 

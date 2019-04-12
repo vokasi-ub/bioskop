@@ -21,13 +21,7 @@
                {{ csrf_field() }}
               <div class="box-body">
                   <input type="hidden" name="id_film" value="{{ $f->id_film }}"> <br/>
-                <div class="form-group">
-                  <label for="inputEmail3" class="col-sm-2 control-label">id film</label>
-
-                  <div class="col-sm-10">
-                    <input type="text" class="form-control" name="id_film" value="{{ $f->id_film }}" placeholder="Email">
-                  </div>
-                </div>
+                
                 <div class="form-group">
                   <label for="inputPassword3" class="col-sm-2 control-label">judul</label>
 

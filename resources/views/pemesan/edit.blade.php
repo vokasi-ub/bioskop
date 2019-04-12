@@ -21,13 +21,7 @@
                {{ csrf_field() }}
               <div class="box-body">
                   <input type="hidden" name="id_pesanan" value="{{ $p->id_pesanan }}"> <br/>
-                <div class="form-group">
-                  <label for="inputEmail3" class="col-sm-2 control-label">id pemesan</label>
-
-                  <div class="col-sm-10">
-                    <input type="text" class="form-control" name="id_pesanan" value="{{ $p->id_pesanan }}" placeholder="id_pemesan">
-                  </div>
-                </div>
+                
                 <div class="form-group">
                   <label for="inputPassword3" class="col-sm-2 control-label">nama pemesan</label>
 

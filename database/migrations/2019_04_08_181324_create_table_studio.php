@@ -14,7 +14,7 @@ class CreateTableStudio extends Migration
     public function up()
     {
         Schema::create('studio', function (Blueprint $table) {
-            $table->string('id_studio');
+            $table->integer('id_studio');
             $table->string('nama_studio');
             $table->timestamps();
         });

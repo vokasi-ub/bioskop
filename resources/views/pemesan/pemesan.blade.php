@@ -55,13 +55,7 @@
                 <form class="form-horizontal" action="inputdatapemesan/store" method="post">
                 {{ csrf_field() }}
               <div class="box-body">
-                <div class="form-group">
-                  <label for="inputEmail3" class="col-sm-2 control-label">Id pesanan</label>
-
-                  <div class="col-sm-10">`
-                    <input type="text" class="form-control" name="id_pesanan" placeholder="id pesanan" name="id_pesanan">
-                  </div>
-                </div>
+                
                 <div class="form-group">
                   <label for="inputPassword3" class="col-sm-2 control-label">Nama pemesan</label>
 

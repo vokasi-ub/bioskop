@@ -14,7 +14,7 @@ class CreateTableKursi extends Migration
     public function up()
     {
         Schema::create('kursi', function (Blueprint $table) {
-            $table->string('id_kursi');
+            $table->integer('id_kursi');
             $table->string('no_kursi');
             $table->timestamps();
         });
